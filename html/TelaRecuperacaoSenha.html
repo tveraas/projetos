@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/TelaRecuperacaoSenha.css">
+    <meta charset="UTF-8">
+    <title>Tela recuperação de senha</title>
+</head>
+<body>
+    <!-- Criação da NavBar-->
+    <div class="barra">
+        <div class="logo-menor"><img id="logo-menor" src="../img/cjr.png"></div>
+        <div class="barra-botoes">
+            <a href="TeladeCadastro.html" class="criar-conta">Criar Conta</a>
+            <form action="TelaDeLogin.html">
+                <button class="botao">Entrar</button>
+            </form>
+        </div>
+    </div>
+
+    <img style="top: 300px; left: 225px;" src="../img/bg.png" class="img_fundo">
+    
+    <div class="menu">
+        <h1 class="titulo-senha">Bem-vindo de volta, fulano! Escolha sua nova senha</h1>
+        <div class="info">
+            <h1 id="email">Digite seu e-mail</h1>
+            <input class="input" type="email" placeholder="">
+            <h1 id="senha">Senha nova</h1>
+            <input class="input" type="password" placeholder="">
+            <h1 id="senha">Digite novamente sua senha</h1>
+            <input class="input" type="password" placeholder="">
+            
+        </div>
+        
+        
+        <a href="TelaDeLogin.html" class="possui-conta">Possui conta? <span id="acesse-conta">Acesse aqui</span></a>
+        <button class="botao-cadastrar">Cadastrar</button>
+    </div>
+</body>
+</html>
